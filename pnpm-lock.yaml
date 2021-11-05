@@ -442,7 +442,7 @@ importers:
       mos-plugin-readme: ^1.0.4
       standard: ^16.0.3
       tape: ^5.1.1
-      tempfile: ^3.0.0
+      tempfile: ^4.0.0
       write-file-atomic: ^3.0.3
       write-ini-file: 'link:'
     dependencies:
@@ -454,7 +454,7 @@ importers:
       mos-plugin-readme: 1.0.4
       standard: 16.0.4
       tape: 5.3.1
-      tempfile: 3.0.0
+      tempfile: 4.0.0
       write-ini-file: file:write-ini-file
     dependenciesMeta:
       write-ini-file:
@@ -468,7 +468,7 @@ importers:
       sort-keys: ^4.2.0
       standard: ^16.0.3
       tape: ^5.1.1
-      tempfile: ^3.0.0
+      tempfile: ^4.0.0
       write-file-atomic: ^3.0.3
     dependencies:
       json5: 2.2.0
@@ -479,7 +479,7 @@ importers:
       mos-plugin-readme: 1.0.4
       standard: 16.0.4
       tape: 5.3.1
-      tempfile: 3.0.0
+      tempfile: 4.0.0
 
   write-yaml-file:
     specifiers:
@@ -6683,12 +6683,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /tempfile/3.0.0:
-    resolution: {integrity: sha512-uNFCg478XovRi85iD42egu+eSFUmmka750Jy7L5tfHI5hQKKtbPnxaSaXAbBqCDYrw3wx4tXjKwci4/QmsZJxw==}
-    engines: {node: '>=8'}
+  /tempfile/4.0.0:
+    resolution: {integrity: sha512-dNH6UWyI8kijDmLVb0IJvCG4JZ5uOmy40CLoi/dVySL49v0f0Y+jIN2rE6Hj85y8mIIya1vwpKZlL9jASs5ktg==}
+    engines: {node: '>=12.20'}
     dependencies:
       temp-dir: 2.0.0
-      uuid: 3.4.0
+      uuid: 8.3.2
     dev: true
 
   /tempy/1.0.1:
@@ -7036,9 +7036,8 @@ packages:
     deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
     dev: true
 
-  /uuid/3.4.0:
-    resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
-    deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+  /uuid/8.3.2:
+    resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
     hasBin: true
     dev: true
 
