@@ -372,13 +372,13 @@ importers:
     specifiers:
       '@types/tape': ^4.13.0
       delay: 5.0.0
-      p-limit: ^3.1.0
+      p-limit: ^4.0.0
       run-groups: 'link:'
       tape: ^5.1.1
       ts-node: ^10.4.0
       typescript: ^4.1.5
     dependencies:
-      p-limit: 3.1.0
+      p-limit: 4.0.0
     devDependencies:
       '@types/tape': 4.13.2
       delay: 5.0.0
@@ -5400,6 +5400,12 @@ packages:
     dependencies:
       yocto-queue: 0.1.0
 
+  /p-limit/4.0.0:
+    resolution: {integrity: sha512-5b0R4txpzjPWVw/cXXUResoD4hb6U/x9BH08L7nw+GN1sezDzPdxeRvpc9c433fZhBan/wusjbCsqwqm4EIBIQ==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dependencies:
+      yocto-queue: 1.0.0
+
   /p-locate/2.0.0:
     resolution: {integrity: sha1-IKAQOyIqcMj9OcwuWAaA893l7EM=}
     engines: {node: '>=4'}
@@ -7398,6 +7404,10 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
+  /yocto-queue/1.0.0:
+    resolution: {integrity: sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==}
+    engines: {node: '>=12.20'}
+
   file:can-link:
     resolution: {directory: can-link, type: directory}
     name: can-link
@@ -7510,7 +7520,7 @@ packages:
     version: 3.0.1
     engines: {node: '>=10'}
     dependencies:
-      p-limit: 3.1.0
+      p-limit: 4.0.0
     dev: true
 
   file:which-pm:
