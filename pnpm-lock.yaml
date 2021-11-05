@@ -402,13 +402,13 @@ importers:
 
   which-pm:
     specifiers:
-      load-yaml-file: ^0.2.0
+      load-yaml-file: ^1.0.0
       path-exists: ^4.0.0
       standard: ^16.0.3
       tape: ^5.1.1
       which-pm: 'link:'
     dependencies:
-      load-yaml-file: 0.2.0
+      load-yaml-file: 1.0.0
       path-exists: 4.0.0
     devDependencies:
       standard: 16.0.4
@@ -4588,6 +4588,14 @@ packages:
       pify: 4.0.1
       strip-bom: 3.0.0
 
+  /load-yaml-file/1.0.0:
+    resolution: {integrity: sha512-Xw+A/X4c5R6GWu7ZUQgw1rnbfUr1P/hAZbDTrreo+/fP/YSGgxAKoWe2IcT+bt4RHuyIca6S7SMGcWx+QI3WIw==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dependencies:
+      graceful-fs: 4.2.8
+      js-yaml: 4.1.0
+      strip-bom: 5.0.0
+
   /locate-path/2.0.0:
     resolution: {integrity: sha1-K1aLJl7slExtnA3pw9u7ygNUzY4=}
     engines: {node: '>=4'}
@@ -6527,6 +6535,10 @@ packages:
     resolution: {integrity: sha512-3xurFv5tEgii33Zi8Jtp55wEIILR9eh34FAW00PZf+JnSsTmV/ioewSgQl97JHvgjoRGwPShsWm+IdrxB35d0w==}
     engines: {node: '>=8'}
 
+  /strip-bom/5.0.0:
+    resolution: {integrity: sha512-p+byADHF7SzEcVnLvc/r3uognM1hUhObuHXxJcgLCfD194XAkaLbjq3Wzb0N5G2tgIjH0dgT708Z51QxMeu60A==}
+    engines: {node: '>=12'}
+
   /strip-eof/1.0.0:
     resolution: {integrity: sha1-u0P/VZim6wXYm1n80SnJgzE2Br8=}
     engines: {node: '>=0.10.0'}
@@ -7496,7 +7508,7 @@ packages:
     version: 2.0.0
     engines: {node: '>=8.15'}
     dependencies:
-      load-yaml-file: 0.2.0
+      load-yaml-file: 1.0.0
       path-exists: 4.0.0
     dev: true
 
