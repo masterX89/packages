@@ -190,7 +190,7 @@ importers:
       find-up: ^5.0.0
       find-yarn-workspace-root2: 1.2.16
       ncp: ^2.0.0
-      path-exists: ^4.0.0
+      path-exists: ^5.0.0
       preferred-pm: 'link:'
       standard: ^16.0.3
       tape: ^5.1.1
@@ -199,7 +199,7 @@ importers:
     dependencies:
       find-up: 5.0.0
       find-yarn-workspace-root2: 1.2.16
-      path-exists: 4.0.0
+      path-exists: 5.0.0
       which-pm: 2.0.0
     devDependencies:
       ncp: 2.0.0
@@ -403,13 +403,13 @@ importers:
   which-pm:
     specifiers:
       load-yaml-file: ^0.2.0
-      path-exists: ^4.0.0
+      path-exists: ^5.0.0
       standard: ^16.0.3
       tape: ^5.1.1
       which-pm: 'link:'
     dependencies:
       load-yaml-file: 0.2.0
-      path-exists: 4.0.0
+      path-exists: 5.0.0
     devDependencies:
       standard: 16.0.4
       tape: 5.3.1
@@ -5530,6 +5530,10 @@ packages:
     resolution: {integrity: sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==}
     engines: {node: '>=8'}
 
+  /path-exists/5.0.0:
+    resolution: {integrity: sha512-RjhtfwJOxzcFmNOi6ltcbcu4Iu+FL3zEj83dk4kAS+fVpTxXLO1b38RvJgT/0QwvV/L3aY9TAnyv0EOqW4GoMQ==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+
   /path-is-absolute/1.0.1:
     resolution: {integrity: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=}
     engines: {node: '>=0.10.0'}
@@ -7460,7 +7464,7 @@ packages:
     dependencies:
       find-up: 5.0.0
       find-yarn-workspace-root2: 1.2.16
-      path-exists: 4.0.0
+      path-exists: 5.0.0
       which-pm: 2.0.0
     dev: true
 
@@ -7520,7 +7524,7 @@ packages:
     engines: {node: '>=8.15'}
     dependencies:
       load-yaml-file: 0.2.0
-      path-exists: 4.0.0
+      path-exists: 5.0.0
     dev: true
 
   file:which-pm-runs:
